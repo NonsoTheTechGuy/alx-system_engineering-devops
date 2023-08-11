@@ -1,1 +1,1 @@
-This is my first C - Hello World alx low-level-programming.
+This is my first C-Hello World low level program.
