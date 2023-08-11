@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - This is my first C-Hello World low level program
- *return: 0
+ * main - A program that prints a line with put function
+ *return: 0 (success)
  */
 
 int main(void)
