@@ -46,13 +46,13 @@
 - For those who want to know more and learn about all signals, check out this [article](https://intranet.alxswe.com/rltoken/BOU-KVNMqfKEIBo_VOI26A).
 ---
 # Tasks
-## 0. What is my PID
+0. What is my PID
 Write a Bash script that displays its own PID.
----
+
 chinonso@ubuntu$ ./0-what-is-my-pid
 4120
 chinonso@ubuntu$
----
+
 ## Repo:
 ---
 - GitHub repository: alx-system_engineering-devops
@@ -66,6 +66,7 @@ Requirements:
 - Must show all processes, for all users, including those which might not have a TTY
 - Display in a user-oriented format
 - Show process hierarchy
+- 
 `chinonso@ubuntu$ ./1-list_your_processes | head -50
 USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root         2  0.0  0.0      0     0 ?        S    Feb13   0:00 [kthreadd]
@@ -119,7 +120,86 @@ root       518  0.0  0.1  23416   644 ?        Ss   Feb13   0:00 rpcbind
 statd      547  0.0  0.1  21536   852 ?        Ss   Feb13   0:00 rpc.statd -L`
 
 chinonso@ubuntu$
-  
+
+Repo:
+
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x05-processes_and_signals
+- File: 1-list_your_processes
+
+## 2. Show your Bash PID
+Using your previous exercise command, write a Bash script that displays lines containing the bash word, thus allowing you to easily get the PID of your Bash process.
+Requirements:
+- You cannot use pgrep
+- The third line of your script must be # shellcheck disable=SC2009 (for more info about ignoring shellcheck error [here](https://intranet.alxswe.com/rltoken/vErRT8QGU2bwJ6FLvPLzxw)
+
+chinonso@ubuntu$ chinonso@ubuntu$ ./2-show_your_bash_pid
+chinonso   4404  0.0  0.7  21432  4000 pts/0    Ss   03:32   0:00          \_ -bash
+chinonso   4477  0.0  0.2  11120  1352 pts/0    S+   03:40   0:00              \_ bash ./2-show_your_bash_PID
+chinonso   4479  0.0  0.1  10460   912 pts/0    S+   03:40   0:00                  \_ grep bash
+chinonso@ubuntu$ 
+---
+Here we can see that my Bash PID is 4404.
+
+Repo:
+
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x05-processes_and_signals
+- File: 2-show_your_bash_pid
+
+## 3. Show your Bash PID made easy
+Write a Bash script that displays the PID, along with the process name, of processes whose name contain the word bash.
+Requirements:
+- You cannot use ps
+
+chinonso@ubuntu$ ./3-show_your_bash_pid_made_easy
+4404 bash
+4555 bash
+chinonoso@ubuntu$ ./3-show_your_bash_pid_made_easy
+4404 bash
+4557 bash
+chinonso@ubuntu$
+
+Here we can see that:
+- For the first iteration: bash PID is 4404 and that the 3-show_your_bash_pid_made_easy script PID is 4555
+- For the second iteration: bash PID is 4404 and that the 3-show_your_bash_pid_made_easy script PID is 4557
+Repo:
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x05-processes_and_signals
+- File: 3-show_your_bash_pid_made_easy
+
+## 4. To infinity and beyond
+Write a Bash script that displays To infinity and beyond indefinitely.
+Requirements:
+- In between each iteration of the loop, add a sleep 2
+chinonso@ubuntu$ ./4-to_infinity_and_beyond
+To infinity and beyond
+To infinity and beyond
+To infinity and beyond
+To infinity and beyond
+To infinity and beyond
+^C
+chinonso@ubuntu$ 
+Note that I ctrl+c (killed) the Bash script in the example.
+Repo:
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x05-processes_and_signals
+- File: 4-to_infinity_and_beyond
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Emphasis
 
 **This is bold text**
