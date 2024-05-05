@@ -355,7 +355,75 @@ Repo:
 - File: `100-process_and_pid_file`
 
 
+## 10. Manage my process
 
+https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/37975393ead381f4d27f268f7337c6d3013b4991.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240505%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240505T195739Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=22d0084080954d68683baf3a5532686bd8e68db1e88d5b0d4b237a4a63409b2a
+
+Read:
+- `[&](https://intranet.alxswe.com/rltoken/R4YSgPT1k0PhWCrB0TYzoQ)`
+- `[init.d](https://intranet.alxswe.com/rltoken/sVqN4oNYYO6ojS4ctT02Jw)`
+- `[Daemon](https://intranet.alxswe.com/rltoken/kCoQ5aYO3towdDQFVPcfNg)`
+- `[Positional parameters](https://intranet.alxswe.com/rltoken/TJ2rxUwRsnM1mJQHSCnOQA)`
+man: `sudo`
+
+Programs that are detached from the terminal and running in the background are called daemons or processes, need to be managed. The general minimum set of instructions is: `start`, `restart` and `stop`. The most popular way of doing so on Unix system is to use the init scripts.
+
+Write a `manage_my_process` Bash script that:
+- Indefinitely writes I am alive! to the file /tmp/my_process
+- In between every I am alive! message, the program should pause for 2 seconds
+Write Bash (init) script 101-manage_my_process that manages manage_my_process. (both files need to be pushed to git)
+Requirements:
+- When passing the argument `start`:
+  - Starts `manage_my_process`
+  - Creates a file containing its PID in `/var/run/my_process.pid`
+  - Displays `manage_my_process` started
+When passing the argument `stop`:
+  - Stops `manage_my_process`
+  - Deletes the file `/var/run/my_process.pid`
+  - Displays `manage_my_process` stopped
+When passing the argument `restart`
+  - Stops `manage_my_process`
+  - Deletes the file `/var/run/my_process.pid`
+  - Starts `manage_my_process`
+  - Creates a file containing its PID in `/var/run/my_process.pid`
+  - Displays `manage_my_process restarted`
+  Displays `Usage: manage_my_process {start|stop|restart}` if any other argument or no argument is passed
+Note that this init script is far from being perfect (but good enough for the sake of manipulating process and PID file), for example we do not handle the case where we check if a process is already running when doing `./101-manage_my_process start`, in our case it will simply create a new process instead of saying that it is already started.
+
+sylvain@ubuntu$ sudo ./101-manage_my_process
+Usage: manage_my_process {start|stop|restart}
+sylvain@ubuntu$ sudo ./101-manage_my_process start
+manage_my_process started
+sylvain@ubuntu$ tail -f -n0 /tmp/my_process 
+I am alive!
+I am alive!
+I am alive!
+I am alive!
+^C
+sylvain@ubuntu$ sudo ./101-manage_my_process stop
+manage_my_process stopped
+sylvain@ubuntu$ cat /var/run/my_process.pid 
+cat: /var/run/my_process.pid: No such file or directory
+sylvain@ubuntu$ tail -f -n0 /tmp/my_process 
+^C
+sylvain@ubuntu$ sudo ./101-manage_my_process start
+manage_my_process started
+sylvain@ubuntu$ cat /var/run/my_process.pid 
+11864
+sylvain@ubuntu$ sudo ./101-manage_my_process restart
+manage_my_process restarted
+sylvain@ubuntu$ cat /var/run/my_process.pid 
+11918
+sylvain@ubuntu$ tail -f -n0 /tmp/my_process 
+I am alive!
+I am alive!
+I am alive!
+^C
+sylvain@ubuntu$ 
+Repo:
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: `101-manage_my_process, manage_my_process`
 
 
 
