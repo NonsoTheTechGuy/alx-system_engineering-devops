@@ -1,7 +1,16 @@
-# Project: 0x05. Processes and Signals ![image](https://github.com/NonsoTheTechGuy/alx-system_engineering-devops/assets/92136146/77c00205-f6fb-45c2-8c71-52a0166e04f1)
+# Project: 0x05. Processes and Signals
+___
 
-## h2 Heading
-### h3 Heading
+---
+
+***
+## Resources
+___
+
+---
+
+***
+### Read or watch:
 #### h4 Heading
 ##### h5 Heading
 ###### h6 Heading
