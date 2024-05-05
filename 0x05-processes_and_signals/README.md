@@ -139,7 +139,7 @@ sylvain   4479  0.0  0.1  10460   912 pts/0    S+   03:40   0:00                
 sylvain@ubuntu$ 
 ```
 ---
-Here we can see that my Bash PID is 4404.
+Here we can see that my Bash PID is `4404`.
 
 Repo:
 - GitHub repository: alx-system_engineering-devops
