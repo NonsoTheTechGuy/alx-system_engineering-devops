@@ -66,8 +66,8 @@ Requirements:
 - Must show all processes, for all users, including those which might not have a TTY
 - Display in a user-oriented format
 - Show process hierarchy
-- 
-`chinonso@ubuntu$ ./1-list_your_processes | head -50
+```
+`sylvain@ubuntu$ ./1-list_your_processes | head -50
 USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root         2  0.0  0.0      0     0 ?        S    Feb13   0:00 [kthreadd]
 root         3  0.0  0.0      0     0 ?        S    Feb13   0:00  \_ [ksoftirqd/0]
@@ -119,10 +119,9 @@ root       378  0.0  0.2  49904  1088 ?        Ss   Feb13   0:00 /lib/systemd/sy
 root       518  0.0  0.1  23416   644 ?        Ss   Feb13   0:00 rpcbind
 statd      547  0.0  0.1  21536   852 ?        Ss   Feb13   0:00 rpc.statd -L`
 
-chinonso@ubuntu$
-
+sylvain@ubuntu$
+```
 Repo:
-
 - GitHub repository: alx-system_engineering-devops
 - Directory: 0x05-processes_and_signals
 - File: 1-list_your_processes
@@ -132,17 +131,17 @@ Using your previous exercise command, write a Bash script that displays lines co
 Requirements:
 - You cannot use pgrep
 - The third line of your script must be # shellcheck disable=SC2009 (for more info about ignoring shellcheck error [here](https://intranet.alxswe.com/rltoken/vErRT8QGU2bwJ6FLvPLzxw)
-
-chinonso@ubuntu$ chinonso@ubuntu$ ./2-show_your_bash_pid
-chinonso   4404  0.0  0.7  21432  4000 pts/0    Ss   03:32   0:00          \_ -bash
-chinonso   4477  0.0  0.2  11120  1352 pts/0    S+   03:40   0:00              \_ bash ./2-show_your_bash_PID
-chinonso   4479  0.0  0.1  10460   912 pts/0    S+   03:40   0:00                  \_ grep bash
-chinonso@ubuntu$ 
+```
+sylvain@ubuntu$ chinonso@ubuntu$ ./2-show_your_bash_pid
+sylvain   4404  0.0  0.7  21432  4000 pts/0    Ss   03:32   0:00          \_ -bash
+sylvain   4477  0.0  0.2  11120  1352 pts/0    S+   03:40   0:00              \_ bash ./2-show_your_bash_PID
+sylvain   4479  0.0  0.1  10460   912 pts/0    S+   03:40   0:00                  \_ grep bash
+sylvain@ubuntu$ 
+```
 ---
 Here we can see that my Bash PID is 4404.
 
 Repo:
-
 - GitHub repository: alx-system_engineering-devops
 - Directory: 0x05-processes_and_signals
 - File: 2-show_your_bash_pid
@@ -151,15 +150,15 @@ Repo:
 Write a Bash script that displays the PID, along with the process name, of processes whose name contain the word bash.
 Requirements:
 - You cannot use ps
-
-chinonso@ubuntu$ ./3-show_your_bash_pid_made_easy
+```
+sylvain@ubuntu$ ./3-show_your_bash_pid_made_easy
 4404 bash
 4555 bash
-chinonoso@ubuntu$ ./3-show_your_bash_pid_made_easy
+sylvain@ubuntu$ ./3-show_your_bash_pid_made_easy
 4404 bash
 4557 bash
-chinonso@ubuntu$
-
+sylvain@ubuntu$
+```
 Here we can see that:
 - For the first iteration: bash PID is 4404 and that the 3-show_your_bash_pid_made_easy script PID is 4555
 - For the second iteration: bash PID is 4404 and that the 3-show_your_bash_pid_made_easy script PID is 4557
@@ -172,14 +171,17 @@ Repo:
 Write a Bash script that displays To infinity and beyond indefinitely.
 Requirements:
 - In between each iteration of the loop, add a sleep 2
-chinonso@ubuntu$ ./4-to_infinity_and_beyond
+
+```
+sylvain@ubuntu$ ./4-to_infinity_and_beyond
 To infinity and beyond
 To infinity and beyond
 To infinity and beyond
 To infinity and beyond
 To infinity and beyond
 ^C
-chinonso@ubuntu$ 
+sylvain@ubuntu$
+```
 Note that I ctrl+c (killed) the Bash script in the example.
 Repo:
 - GitHub repository: alx-system_engineering-devops
@@ -192,7 +194,9 @@ Write a Bash script that stops `4-to_infinity_and_beyond` process.
 
 Requirements:
 - You must use `kill`
+
 Terminal #0
+```
 sylvain@ubuntu$ ./4-to_infinity_and_beyond
 To infinity and beyond
 To infinity and beyond
@@ -209,12 +213,13 @@ To infinity and beyond
 To infinity and beyond
 To infinity and beyond
 Terminated
-sylvain@ubuntu$ 
+sylvain@ubuntu$
+```
 Terminal #1
-
+```
 sylvain@ubuntu$ ./5-dont_stop_me_now 
 sylvain@ubuntu$ 
-
+```
 I opened 2 terminals in this example, started by running my `4-to_infinity_and_beyond` Bash script in terminal #0 and then moved on terminal #1 to run `5-dont_stop_me_now`. We can then see in terminal #0 that my process has been terminated.
 
 Repo:
@@ -226,9 +231,10 @@ Repo:
 Write a Bash script that stops `4-to_infinity_and_beyond` process.
 
 Requirements:
-
 You cannot use `kill` or `killall`
+
 Terminal #0
+```
 sylvain@ubuntu$ ./4-to_infinity_and_beyond
 To infinity and beyond
 To infinity and beyond
@@ -243,10 +249,12 @@ To infinity and beyond
 To infinity and beyond
 Terminated
 sylvain@ubuntu$ 
+```
 Terminal #1
-
+```
 sylvain@ubuntu$ ./6-stop_me_if_you_can
 sylvain@ubuntu$
+```
 I opened 2 terminals in this example, started by running my `4-to_infinity_and_beyond` Bash script in terminal #0 and then moved on terminal #1 to run `6-stop_me_if_you_can`. We can then see in terminal #0 that my process has been terminated.
 
 Repo:
@@ -259,9 +267,11 @@ Write a Bash script that displays:
 - `To infinity and beyond` indefinitely
 - With a `sleep 2` in between each iteration
 - `I am invincible!!!` when receiving a `SIGTERM` signal
+- 
 Make a copy of your `6-stop_me_if_you_can` script, name it `67-stop_me_if_you_can`, that kills the `7-highlander` process instead of the `4-to_infinity_and_beyond` one.
 
 Terminal #0
+```
 sylvain@ubuntu$ ./7-highlander
 To infinity and beyond
 To infinity and beyond
@@ -275,12 +285,14 @@ I am invincible!!!
 To infinity and beyond
 ^C
 sylvain@ubuntu$ 
+```
 Terminal #1
-
+```
 sylvain@ubuntu$ ./67-stop_me_if_you_can 
 sylvain@ubuntu$ ./67-stop_me_if_you_can
 sylvain@ubuntu$ ./67-stop_me_if_you_can
 sylvain@ubuntu$ 
+```
 I started `7-highlander` in Terminal #0 and then run `67-stop_me_if_you_can` in terminal #1, for every iteration we can see `I am invincible!!!` appearing in terminal #0.
 
 Repo:
@@ -293,6 +305,7 @@ Write a Bash script that kills the process `7-highlander`.
 
 Terminal #0
 
+```
 sylvain@ubuntu$ ./7-highlander 
 To infinity and beyond
 To infinity and beyond
@@ -300,10 +313,12 @@ To infinity and beyond
 To infinity and beyond
 Killed
 sylvain@ubuntu$ 
+```
 Terminal #1
-
+```
 sylvain@ubuntu$ ./8-beheaded_process
 sylvain@ubuntu$ 
+```
 I started `7-highlander` in Terminal #0 and then run `8-beheaded_process` in terminal #1 and we can see that the `7-highlander` has been killed.
 
 Repo:
@@ -321,6 +336,7 @@ Write a Bash script that:
 
 ![image](https://github.com/NonsoTheTechGuy/alx-system_engineering-devops/assets/92136146/442a2652-f9d9-4627-b16c-53fbf308275d)
 
+```
 sylvain@ubuntu$ sudo ./100-process_and_pid_file
 To infinity and beyond
 To infinity and beyond
@@ -343,11 +359,14 @@ To infinity and beyond
 To infinity and beyond
 I hate the kill command
 sylvain@ubuntu$ 
-Terminal #1
+```
 
+Terminal #1
+```
 sylvain@ubuntu$ sudo pkill -f 100-process_and_pid_file
 sylvain@ubuntu$ 
 Starting `100-process_and_pid_file` in the terminal #0 and then killing it in the terminal #1.
+```
 
 Repo:
 - GitHub repository: `alx-system_engineering-devops`
@@ -396,7 +415,7 @@ When passing the argument `restart`
 - Displays `Usage: manage_my_process {start|stop|restart}` if any other argument or no argument is passed
 
 Note that this init script is far from being perfect (but good enough for the sake of manipulating process and PID file), for example we do not handle the case where we check if a process is already running when doing `./101-manage_my_process start`, in our case it will simply create a new process instead of saying that it is already started.
-
+```
 sylvain@ubuntu$ sudo ./101-manage_my_process
 Usage: manage_my_process {start|stop|restart}
 sylvain@ubuntu$ sudo ./101-manage_my_process start
@@ -426,7 +445,8 @@ I am alive!
 I am alive!
 I am alive!
 ^C
-sylvain@ubuntu$ 
+sylvain@ubuntu$
+```
 Repo:
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x05-processes_and_signals`
@@ -447,7 +467,7 @@ Requirements:
 - For every zombie process created, it displays `Zombie process created, PID: ZOMBIE_PID`
 - Your code should use the Betty style. It will be checked using `betty-style.pl` and `betty-doc.pl`
 - When your code is done creating the parent process and the zombies, use the function below
-- 
+
 ```
 int infinite_while(void)
 {
