@@ -1,11 +1,21 @@
 # Project: 0x05. Processes and Signals
 ___
+
 ## Resources
 ___
+
 ### Read or watch:
 #### h4 Heading
 ##### h5 Heading
 ###### h6 Heading
+
+---
+__Advertisement :)__
+
+- __https://www.linfo.org/pid.html
+- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
+  i18n with plurals support and easy syntax.
+
 
 
 ## Horizontal Rules
