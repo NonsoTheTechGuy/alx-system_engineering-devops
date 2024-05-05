@@ -69,7 +69,7 @@ Write a Bash script that displays a list of currently running processes.
 - Display in a user-oriented format
 - Show process hierarchy
 
-chinonso@ubuntu$ ./1-list_your_processes | head -50
+`chinonso@ubuntu$ ./1-list_your_processes | head -50
 USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root         2  0.0  0.0      0     0 ?        S    Feb13   0:00 [kthreadd]
 root         3  0.0  0.0      0     0 ?        S    Feb13   0:00  \_ [ksoftirqd/0]
@@ -119,7 +119,7 @@ root         1  0.0  0.4  33608  2168 ?        Ss   Feb13   0:00 /sbin/init
 root       373  0.0  0.0  19472   408 ?        S    Feb13   0:00 upstart-udev-bridge --daemon
 root       378  0.0  0.2  49904  1088 ?        Ss   Feb13   0:00 /lib/systemd/systemd-udevd --daemon
 root       518  0.0  0.1  23416   644 ?        Ss   Feb13   0:00 rpcbind
-statd      547  0.0  0.1  21536   852 ?        Ss   Feb13   0:00 rpc.statd -L
+statd      547  0.0  0.1  21536   852 ?        Ss   Feb13   0:00 rpc.statd -L`
 chinonso@ubuntu$
   
 ## Emphasis
