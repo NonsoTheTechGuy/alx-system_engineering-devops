@@ -380,18 +380,21 @@ Requirements:
   - Starts `manage_my_process`
   - Creates a file containing its PID in `/var/run/my_process.pid`
   - Displays `manage_my_process` started
+
 When passing the argument `stop`:
   - Stops `manage_my_process`
   - Deletes the file `/var/run/my_process.pid`
   - Displays `manage_my_process` stopped
+
 When passing the argument `restart`
+
   - Stops `manage_my_process`
   - Deletes the file `/var/run/my_process.pid`
   - Starts `manage_my_process`
   - Creates a file containing its PID in `/var/run/my_process.pid`
   - Displays `manage_my_process restarted`
 - Displays `Usage: manage_my_process {start|stop|restart}` if any other argument or no argument is passed
-- 
+
 Note that this init script is far from being perfect (but good enough for the sake of manipulating process and PID file), for example we do not handle the case where we check if a process is already running when doing `./101-manage_my_process start`, in our case it will simply create a new process instead of saying that it is already started.
 
 sylvain@ubuntu$ sudo ./101-manage_my_process
