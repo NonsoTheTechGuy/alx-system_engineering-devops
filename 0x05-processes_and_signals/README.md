@@ -164,6 +164,7 @@ sylvain@ubuntu$
 Here we can see that:
 - For the first iteration: `bash` PID is `4404` and that the `3-show_your_bash_pid_made_easy` script PID is `4555`
 - For the second iteration: `bash` PID is `4404` and that the `3-show_your_bash_pid_made_easy` script PID is `4557`
+
 Repo:
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x05-processes_and_signals`
