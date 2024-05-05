@@ -436,6 +436,9 @@ Repo:
 ## 11. Zombie
 
 http://fineartamerica.com/featured/zombie-seahorse-lauren-b.html
+https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/255/C6mO7b3.jpg
+http://fineartamerica.com/featured/zombie-seahorse-lauren-b.html
+https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/255/C6mO7b3.jpg
 
 Read [what a zombie process is](https://intranet.alxswe.com/rltoken/Tb86ZoSxR6ORCKYlZaYzHw).
 
@@ -480,9 +483,9 @@ sylvain@ubuntu$
 In Terminal #0, I start by compiling `102-zombie.c` and executing `zombie` which creates 5 zombie processes. In Terminal #1, I display the list of processes and look for lines containing `Z+.*<defunct>` which catches zombie process.
 
 Repo:
-GitHub repository: `alx-system_engineering-devops`
-Directory: `0x05-processes_and_signals`
-File: `102-zombie.c`
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: `102-zombie.c`
 
 ## Environments
 
