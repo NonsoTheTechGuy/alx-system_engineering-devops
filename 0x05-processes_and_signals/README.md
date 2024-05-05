@@ -8,17 +8,10 @@
 - __[Linux process](https://www.thegeekstuff.com/2012/03/linux-processes-environment/)__
 - __[Linux signal](https://www.educative.io/answers/what-are-linux-signals)__
 - __[Process management in linux](https://www.digitalocean.com/community/tutorials/process-management-in-linux)__
-
 ---
-
 ## Learning Objectives
 - At the end of this project, you are expected to be able to __[explain to anyone](https://intranet.alxswe.com/rltoken/_zeQBWHdlNNOM-5IqFDhSQ)__, without the help of Google:
-___
-
 ---
-
-***
-
 
 ## General
 
@@ -28,6 +21,18 @@ ___
 - How to kill a process
 - What is a signal
 - What are the 2 signals that cannot be ignored
+
+# Requirements
+
+## General
+- Allowed editors: vi, vim, emacs
+- All your files will be interpreted on Ubuntu 20.04 LTS
+- All your files should end with a new line
+- A README.md file, at the root of the folder of the project, is mandatory
+- All your Bash script files must be executable
+- Your Bash script must pass Shellcheck (version 0.7.0 via apt-get) without any error
+- The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
+- The second line of all your Bash scripts should be a comment explaining what is the script doing
 
 Enable typographer option to see result.
 
