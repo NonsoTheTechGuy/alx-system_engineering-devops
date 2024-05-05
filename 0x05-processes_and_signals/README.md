@@ -9,6 +9,14 @@
 - __[Linux signal](https://www.educative.io/answers/what-are-linux-signals)__
 - __[Process management in linux](https://www.digitalocean.com/community/tutorials/process-management-in-linux)__
 ---
+## man or help:
+- ps
+- pgrep
+- pkill
+- kill
+- exit
+- trap
+- 
 ## Learning Objectives
 - At the end of this project, you are expected to be able to __[explain to anyone](https://intranet.alxswe.com/rltoken/_zeQBWHdlNNOM-5IqFDhSQ)__, without the help of Google:
 ---
@@ -33,6 +41,11 @@
 - Your Bash script must pass Shellcheck (version 0.7.0 via apt-get) without any error
 - The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
 - The second line of all your Bash scripts should be a comment explaining what is the script doing
+
+
+# More Info
+- For those who want to know more and learn about all signals, check out this [article](https://intranet.alxswe.com/rltoken/BOU-KVNMqfKEIBo_VOI26A).
+
 
 Enable typographer option to see result.
 
