@@ -1,9 +1,7 @@
 # Project: 0x05. Processes and Signals
 ___
-
 ## Resources
 ___
-
 ### Read or watch:
 #### h4 Heading
 ##### h5 Heading
