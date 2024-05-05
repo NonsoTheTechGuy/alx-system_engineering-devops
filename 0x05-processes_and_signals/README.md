@@ -3,13 +3,8 @@ ___
 
 ## Resources
 ___
-
-### Read or watch:
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
-
 ---
+### Read or watch:
 - __[Linux PID](https://www.linfo.org/pid.html)__
 - __[Linux process](https://www.thegeekstuff.com/2012/03/linux-processes-environment/)__
 - __[Linux signal](https://www.educative.io/answers/what-are-linux-signals)__
