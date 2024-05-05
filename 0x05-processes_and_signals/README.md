@@ -70,6 +70,7 @@ Write a Bash script that displays a list of currently running processes.
 - Show process hierarchy
 
 `chinonso@ubuntu$ ./1-list_your_processes | head -50
+
 USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root         2  0.0  0.0      0     0 ?        S    Feb13   0:00 [kthreadd]
 root         3  0.0  0.0      0     0 ?        S    Feb13   0:00  \_ [ksoftirqd/0]
