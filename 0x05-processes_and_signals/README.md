@@ -32,42 +32,43 @@
 # Requirements
 
 ## General
-- Allowed editors: vi, vim, emacs
-- All your files will be interpreted on Ubuntu 20.04 LTS
-- All your files should end with a new line
-- A README.md file, at the root of the folder of the project, is mandatory
-- All your Bash script files must be executable
-- Your Bash script must pass Shellcheck (version 0.7.0 via apt-get) without any error
-- The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
+- Allowed editors: `vi, vim, emacs`.
+- All your files will be interpreted on Ubuntu 20.04 LTS.
+- All your files should end with a new line.
+- A `README.md` file, at the root of the folder of the project, is mandatory.
+- All your Bash script files must be executable.
+- Your Bash script must pass `Shellcheck` (version `0.7.0` via `apt-get`) without any error.
+- The first line of all your Bash scripts should be exactly `#!/usr/bin/env bash`.
 - The second line of all your Bash scripts should be a comment explaining what is the script doing
 
 
 # More Info
 - For those who want to know more and learn about all signals, check out this [article](https://intranet.alxswe.com/rltoken/BOU-KVNMqfKEIBo_VOI26A).
+
 ---
 # Tasks
 0. What is my PID
 Write a Bash script that displays its own PID.
-
-chinonso@ubuntu$ ./0-what-is-my-pid
+```
+sylvain@ubuntu$ ./0-what-is-my-pid
 4120
-chinonso@ubuntu$
-
+sylvain@ubuntu$
+```
 ## Repo:
----
-- GitHub repository: alx-system_engineering-devops
-- Directory: 0x05-processes_and_signals
-- File: 0-what-is-my-pid
----
-## 1. List your processes
 
-## Write a Bash script that displays a list of currently running processes.
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: `0-what-is-my-pid`
+
+## 1. List your processes
+Write a Bash script that displays a list of currently running processes.
+
 Requirements:
 - Must show all processes, for all users, including those which might not have a TTY
 - Display in a user-oriented format
 - Show process hierarchy
 ```
-`sylvain@ubuntu$ ./1-list_your_processes | head -50
+sylvain@ubuntu$ ./1-list_your_processes | head -50
 USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root         2  0.0  0.0      0     0 ?        S    Feb13   0:00 [kthreadd]
 root         3  0.0  0.0      0     0 ?        S    Feb13   0:00  \_ [ksoftirqd/0]
@@ -117,22 +118,21 @@ root         1  0.0  0.4  33608  2168 ?        Ss   Feb13   0:00 /sbin/init
 root       373  0.0  0.0  19472   408 ?        S    Feb13   0:00 upstart-udev-bridge --daemon
 root       378  0.0  0.2  49904  1088 ?        Ss   Feb13   0:00 /lib/systemd/systemd-udevd --daemon
 root       518  0.0  0.1  23416   644 ?        Ss   Feb13   0:00 rpcbind
-statd      547  0.0  0.1  21536   852 ?        Ss   Feb13   0:00 rpc.statd -L`
-
+statd      547  0.0  0.1  21536   852 ?        Ss   Feb13   0:00 rpc.statd -L
 sylvain@ubuntu$
 ```
 Repo:
-- GitHub repository: alx-system_engineering-devops
-- Directory: 0x05-processes_and_signals
-- File: 1-list_your_processes
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: `1-list_your_processes`
 
 ## 2. Show your Bash PID
-Using your previous exercise command, write a Bash script that displays lines containing the bash word, thus allowing you to easily get the PID of your Bash process.
+Using your previous exercise command, write a Bash script that displays lines containing the `bash` word, thus allowing you to easily get the PID of your Bash process.
 Requirements:
 - You cannot use `pgrep`
 - The third line of your script must be `# shellcheck disable=SC2009` (for more info about ignoring `shellcheck` error[here](https://intranet.alxswe.com/rltoken/vErRT8QGU2bwJ6FLvPLzxw)
 ```
-sylvain@ubuntu$ chinonso@ubuntu$ ./2-show_your_bash_pid
+sylvain@ubuntu$ sylvain@ubuntu$ ./2-show_your_bash_pid
 sylvain   4404  0.0  0.7  21432  4000 pts/0    Ss   03:32   0:00          \_ -bash
 sylvain   4477  0.0  0.2  11120  1352 pts/0    S+   03:40   0:00              \_ bash ./2-show_your_bash_PID
 sylvain   4479  0.0  0.1  10460   912 pts/0    S+   03:40   0:00                  \_ grep bash
@@ -142,14 +142,14 @@ sylvain@ubuntu$
 Here we can see that my Bash PID is `4404`.
 
 Repo:
-- GitHub repository: alx-system_engineering-devops
-- Directory: 0x05-processes_and_signals
-- File: 2-show_your_bash_pid
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: `2-show_your_bash_pid`
 
 ## 3. Show your Bash PID made easy
-Write a Bash script that displays the PID, along with the process name, of processes whose name contain the word bash.
+Write a Bash script that displays the PID, along with the process name, of processes whose name contain the word `bash`.
 Requirements:
-- You cannot use ps
+- You cannot use `ps`
 ```
 sylvain@ubuntu$ ./3-show_your_bash_pid_made_easy
 4404 bash
@@ -160,17 +160,17 @@ sylvain@ubuntu$ ./3-show_your_bash_pid_made_easy
 sylvain@ubuntu$
 ```
 Here we can see that:
-- For the first iteration: bash PID is 4404 and that the 3-show_your_bash_pid_made_easy script PID is 4555
-- For the second iteration: bash PID is 4404 and that the 3-show_your_bash_pid_made_easy script PID is 4557
+- For the first iteration: `bash` PID is `4404` and that the `3-show_your_bash_pid_made_easy` script PID is `4555`
+- For the second iteration: `bash` PID is `4404` and that the `3-show_your_bash_pid_made_easy` script PID is `4557`
 Repo:
-- GitHub repository: alx-system_engineering-devops
-- Directory: 0x05-processes_and_signals
-- File: 3-show_your_bash_pid_made_easy
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: `3-show_your_bash_pid_made_easy`
 
 ## 4. To infinity and beyond
 Write a Bash script that displays To infinity and beyond indefinitely.
 Requirements:
-- In between each iteration of the loop, add a sleep 2
+- In between each iteration of the loop, add a `sleep 2`
 
 ```
 sylvain@ubuntu$ ./4-to_infinity_and_beyond
@@ -182,11 +182,11 @@ To infinity and beyond
 ^C
 sylvain@ubuntu$
 ```
-Note that I ctrl+c (killed) the Bash script in the example.
+Note that I `ctrl+c` (killed) the Bash script in the example.
 Repo:
-- GitHub repository: alx-system_engineering-devops
-- Directory: 0x05-processes_and_signals
-- File: 4-to_infinity_and_beyond
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: `4-to_infinity_and_beyond`
 
 ## 5. Don't stop me now!
 We stopped our `4-to_infinity_and_beyond` process using `ctrl+c` in the previous task, there is actually another way to do this.
@@ -267,7 +267,7 @@ Write a Bash script that displays:
 - `To infinity and beyond` indefinitely
 - With a `sleep 2` in between each iteration
 - `I am invincible!!!` when receiving a `SIGTERM` signal
-- 
+
 Make a copy of your `6-stop_me_if_you_can` script, name it `67-stop_me_if_you_can`, that kills the `7-highlander` process instead of the `4-to_infinity_and_beyond` one.
 
 Terminal #0
