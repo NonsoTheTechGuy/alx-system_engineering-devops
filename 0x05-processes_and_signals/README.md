@@ -406,12 +406,12 @@ Requirements:
 - When passing the argument `start`:
   - Starts `manage_my_process`
   - Creates a file containing its PID in `/var/run/my_process.pid`
-  - Displays `manage_my_process` started
+  - Displays `manage_my_process started`
 
 When passing the argument `stop`:
   - Stops `manage_my_process`
   - Deletes the file `/var/run/my_process.pid`
-  - Displays `manage_my_process` stopped
+  - Displays `manage_my_process stopped`
 
 When passing the argument `restart`
 
@@ -499,7 +499,6 @@ Zombie process created, PID: 13530
 Zombie process created, PID: 13531
 ^C
 sylvain@ubuntu$
-
 ```
 Terminal #1
 ```
