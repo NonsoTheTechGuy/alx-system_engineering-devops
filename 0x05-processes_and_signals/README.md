@@ -10,13 +10,12 @@ ___
 ###### h6 Heading
 
 ---
-__Advertisement :)__
+- __[Linux PID](https://www.linfo.org/pid.html)__
+- __[Linux process](https://www.thegeekstuff.com/2012/03/linux-processes-environment/)__
+- __[Linux signal](https://www.educative.io/answers/what-are-linux-signals)__
+- __[Process management in linux](https://www.digitalocean.com/community/tutorials/process-management-in-linux)__
 
-- __https://www.linfo.org/pid.html
-- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
-  i18n with plurals support and easy syntax.
-
-
+---
 
 ## Horizontal Rules
 
