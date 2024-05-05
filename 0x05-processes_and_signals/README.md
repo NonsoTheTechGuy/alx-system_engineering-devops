@@ -346,10 +346,12 @@ sylvain@ubuntu$ sudo ./100-process_and_pid_file
 To infinity and beyond
 To infinity and beyond
 ^CY U no love me?!
+```
 Executing the `100-process_and_pid_file` script and killing it with `ctrl+c`.
 
 Terminal #0
 
+```
 sylvain@ubuntu$ sudo ./100-process_and_pid_file
 To infinity and beyond
 To infinity and beyond
