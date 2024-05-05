@@ -1,8 +1,6 @@
 # Project: 0x05. Processes and Signals
-___
 
 ## Resources
-___
 ---
 ### Read or watch:
 - __[Linux PID](https://www.linfo.org/pid.html)__
