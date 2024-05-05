@@ -519,7 +519,7 @@ Repo:
 - Directory: `0x05-processes_and_signals`
 - File: `102-zombie.c`
 
-## Environments
+## Environment
 
 - Language: Bash Scripts
 - OS: Ubuntu 20.04 LTS
