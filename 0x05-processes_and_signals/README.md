@@ -1,4 +1,4 @@
-# Project: 0x05. Processes and Signals
+# About Bash Project: 0x05. Processes and Signals
 
 ## Resources
 ---
@@ -16,7 +16,6 @@
 - kill
 - exit
 - trap
-- 
 ## Learning Objectives
 - At the end of this project, you are expected to be able to __[explain to anyone](https://intranet.alxswe.com/rltoken/_zeQBWHdlNNOM-5IqFDhSQ)__, without the help of Google:
 ---
@@ -45,19 +44,21 @@
 
 # More Info
 - For those who want to know more and learn about all signals, check out this [article](https://intranet.alxswe.com/rltoken/BOU-KVNMqfKEIBo_VOI26A).
-
-
-Enable typographer option to see result.
-
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
-
-test.. test... test..... test?..... test!....
-
-!!!!!! ???? ,,  -- ---
-
-"Smartypants, double quotes" and 'single quotes'
-
-
+---
+# Tasks
+## 0. What is my PID
+## Write a Bash script that displays its own PID.
+---
+nonso@ubuntu$ ./0-what-is-my-pid
+4120
+nonso@ubuntu$
+---
+## Repo:
+---
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x05-processes_and_signals
+- File: 0-what-is-my-pid
+---
 ## Emphasis
 
 **This is bold text**
