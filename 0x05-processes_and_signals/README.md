@@ -3,6 +3,7 @@
 ## Resources
 ---
 ### Read or watch:
+
 - __[Linux PID](https://www.linfo.org/pid.html)__
 - __[Linux process](https://www.thegeekstuff.com/2012/03/linux-processes-environment/)__
 - __[Linux signal](https://www.educative.io/answers/what-are-linux-signals)__
@@ -10,8 +11,8 @@
 
 ---
 
-## Horizontal Rules
-
+## Learning Objectives
+- At the end of this project, you are expected to be able to __[explain to anyone](https://intranet.alxswe.com/rltoken/_zeQBWHdlNNOM-5IqFDhSQ)__, without the help of Google:
 ___
 
 ---
@@ -19,7 +20,14 @@ ___
 ***
 
 
-## Typographic replacements
+## General
+
+- What is a PID
+- What is a process
+- How to find a process’ PID
+- How to kill a process
+- What is a signal
+- What are the 2 signals that cannot be ignored
 
 Enable typographer option to see result.
 
