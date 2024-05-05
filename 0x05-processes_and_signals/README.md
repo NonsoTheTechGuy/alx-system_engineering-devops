@@ -187,6 +187,7 @@ To infinity and beyond
 sylvain@ubuntu$
 ```
 Note that I `ctrl+c` (killed) the Bash script in the example.
+
 Repo:
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x05-processes_and_signals`
