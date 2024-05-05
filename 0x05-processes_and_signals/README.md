@@ -130,7 +130,7 @@ Repo:
 Using your previous exercise command, write a Bash script that displays lines containing the bash word, thus allowing you to easily get the PID of your Bash process.
 Requirements:
 - You cannot use `pgrep`
-- The third line of your script must be `# shellcheck disable=SC2009` (for more info about ignoring `shellcheck` error `[here](https://intranet.alxswe.com/rltoken/vErRT8QGU2bwJ6FLvPLzxw)`
+- The third line of your script must be `# shellcheck disable=SC2009` (for more info about ignoring `shellcheck` error[here](https://intranet.alxswe.com/rltoken/vErRT8QGU2bwJ6FLvPLzxw)
 ```
 sylvain@ubuntu$ chinonso@ubuntu$ ./2-show_your_bash_pid
 sylvain   4404  0.0  0.7  21432  4000 pts/0    Ss   03:32   0:00          \_ -bash
