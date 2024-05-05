@@ -59,7 +59,7 @@ chinonso@ubuntu$
 - Directory: 0x05-processes_and_signals
 - File: 0-what-is-my-pid
 ---
-## 1. List your processes
+## 1. [List your processes](https://github.com/hunterxcobby/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/1-list_your_processes)
 
 ## Write a Bash script that displays a list of currently running processes.
 Requirements:
