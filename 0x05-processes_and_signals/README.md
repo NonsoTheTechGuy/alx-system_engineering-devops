@@ -357,7 +357,7 @@ Repo:
 
 ## 10. Manage my process
 
-https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/37975393ead381f4d27f268f7337c6d3013b4991.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240505%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240505T195739Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=22d0084080954d68683baf3a5532686bd8e68db1e88d5b0d4b237a4a63409b2a
+![image](https://github.com/NonsoTheTechGuy/alx-system_engineering-devops/assets/92136146/dea07246-7d5a-4edf-bcd5-4e0a041cd86f)
 
 Read:
 - `[&](https://intranet.alxswe.com/rltoken/R4YSgPT1k0PhWCrB0TYzoQ)`
