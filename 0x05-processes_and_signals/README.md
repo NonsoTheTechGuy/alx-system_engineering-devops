@@ -436,8 +436,7 @@ Repo:
 ## 11. Zombie
 
 http://fineartamerica.com/featured/zombie-seahorse-lauren-b.html
-https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/255/C6mO7b3.jpg
-http://fineartamerica.com/featured/zombie-seahorse-lauren-b.html
+
 https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/255/C6mO7b3.jpg
 
 Read [what a zombie process is](https://intranet.alxswe.com/rltoken/Tb86ZoSxR6ORCKYlZaYzHw).
@@ -460,7 +459,7 @@ int infinite_while(void)
 Example:
 
 Terminal #0
-
+```
 sylvain@ubuntu$ gcc 102-zombie.c -o zombie
 sylvain@ubuntu$ ./zombie 
 Zombie process created, PID: 13527
@@ -470,6 +469,8 @@ Zombie process created, PID: 13530
 Zombie process created, PID: 13531
 ^C
 sylvain@ubuntu$
+
+```
 Terminal #1
 
 sylvain@ubuntu$ ps aux | grep -e 'Z+.*<defunct>'
