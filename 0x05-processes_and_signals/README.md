@@ -120,6 +120,7 @@ root       373  0.0  0.0  19472   408 ?        S    Feb13   0:00 upstart-udev-br
 root       378  0.0  0.2  49904  1088 ?        Ss   Feb13   0:00 /lib/systemd/systemd-udevd --daemon
 root       518  0.0  0.1  23416   644 ?        Ss   Feb13   0:00 rpcbind
 statd      547  0.0  0.1  21536   852 ?        Ss   Feb13   0:00 rpc.statd -L`
+
 chinonso@ubuntu$
   
 ## Emphasis
