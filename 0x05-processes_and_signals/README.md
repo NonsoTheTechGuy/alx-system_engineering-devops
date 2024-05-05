@@ -171,7 +171,8 @@ Repo:
 - File: `3-show_your_bash_pid_made_easy`
 
 ## 4. To infinity and beyond
-Write a Bash script that displays To infinity and beyond indefinitely.
+Write a Bash script that displays `To infinity and beyond indefinitely`.
+
 Requirements:
 - In between each iteration of the loop, add a `sleep 2`
 
