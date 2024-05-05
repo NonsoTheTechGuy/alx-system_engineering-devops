@@ -397,8 +397,8 @@ man: `sudo`
 Programs that are detached from the terminal and running in the background are called daemons or processes, need to be managed. The general minimum set of instructions is: `start`, `restart` and `stop`. The most popular way of doing so on Unix system is to use the init scripts.
 
 Write a `manage_my_process` Bash script that:
-- Indefinitely writes I am alive! to the file /tmp/my_process
-- In between every I am alive! message, the program should pause for 2 seconds
+- Indefinitely writes `I am alive!` to the file `/tmp/my_process`
+- In between every `I am alive!` message, the program should pause for 2 seconds
 
 Write Bash (init) script `101-manage_my_process` that manages `manage_my_process`. (both files need to be pushed to git)
 
@@ -420,7 +420,7 @@ When passing the argument `restart`
   - Starts `manage_my_process`
   - Creates a file containing its PID in `/var/run/my_process.pid`
   - Displays `manage_my_process restarted`
-- Displays `Usage: manage_my_process {start|stop|restart}` if any other argument or no argument is passed
+Displays `Usage: manage_my_process {start|stop|restart}` if any other argument or no argument is passed
 
 Note that this init script is far from being perfect (but good enough for the sake of manipulating process and PID file), for example we do not handle the case where we check if a process is already running when doing `./101-manage_my_process start`, in our case it will simply create a new process instead of saying that it is already started.
 ```
