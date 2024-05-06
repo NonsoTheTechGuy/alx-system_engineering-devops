@@ -50,6 +50,7 @@ For this project, we expect you to look at this concept:
 - What is the `/etc/passwd` file and what is its format
 - What is the `/etc/shadow` file and what is its format
 
+
 # Requirements
 ## General
 - Allowed editors: `vi, vim, emacs`
@@ -79,14 +80,17 @@ julien@ubuntu:/tmp/h$ ./0-hello_world
 Hello, World
 julien@ubuntu:/tmp/h$ ./0-hello_world | cat -e
 Hello, World$
-julien@ubuntu:/tmp/h$ 
+julien@ubuntu:/tmp/h$
+```
 ---
 Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x02-shell_redirections`
 - File: `0-hello_world`
-   
+
+
+
 ## 1. Confused smiley
 
 Write a script that displays a confused smiley `"(Ôo)'`.
