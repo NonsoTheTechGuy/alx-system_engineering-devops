@@ -584,6 +584,7 @@ Repo:
 
 Display lines containing the pattern “root” from the file `/etc/passwd`
 
+```
 $ ./14-findthatword
 root:*:0:0:System Administrator:/var/root:/bin/sh
 daemon:*:1:1:System Services:/var/root:/usr/bin/false
