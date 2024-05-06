@@ -924,13 +924,13 @@ Repo:
 
 Write a script that lists all the files with a `.gif` extension in the current directory and all its sub-directories.
 
-Hidden files should be listed
-Only regular files (not directories) should be listed
-The names of the files should be displayed without their extensions
-The files should be sorted by byte values, but case-insensitive (file `aaa` should be listed before file `bbb`, file `.b` should be listed before file `a`, and file `Rona` should be listed after file `jay`)
-One file name per line
-The listing should end with a new line
-You are not allowed to use `basename`, `grep`, `egrep`, `fgrep` or `rgrep`
+- Hidden files should be listed
+- Only regular files (not directories) should be listed
+- The names of the files should be displayed without their extensions
+- The files should be sorted by byte values, but case-insensitive (file `aaa` should be listed before file `bbb`, file `.b` should be listed before file `a`, and file `Rona` should be listed after file `jay`)
+- One file name per line
+- The listing should end with a new line
+- You are not allowed to use `basename`, `grep`, `egrep`, `fgrep` or `rgrep`
 ```
     julien@production-503e7013:~/shell/fun_with_the_shell$ ls -Rla
     .:
@@ -988,8 +988,8 @@ An acrostic is a poem (or other form of writing) in which the first letter (or s
 
 Create a script that decodes acrostics that use the first letter of each line.
 
-The ‘decoded’ message has to end with a new line
-You are not allowed to use `grep`, `egrep`, `fgrep` or `rgrep`
+- The ‘decoded’ message has to end with a new line
+- You are not allowed to use `grep`, `egrep`, `fgrep` or `rgrep`
 ```
 julien@ubuntu:/tmp/0x02$ cat An\ Acrostic 
 Elizabeth it is in vain you say
