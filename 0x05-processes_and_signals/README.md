@@ -1,4 +1,4 @@
-# About Bash Project: 0x05. Processes and Signals
+# About Bash Project: 0x05. Processes and Signals 😢
 
 ## Resources
 ---
@@ -529,4 +529,4 @@ Repo:
 
 ## Author
 
-KALU JONAH CHINONSO
+## KALU JONAH CHINONSO 😃
