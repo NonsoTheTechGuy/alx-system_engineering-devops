@@ -90,6 +90,7 @@ julien@ubuntu:/tmp/0x03$ ls
 julien@ubuntu:/tmp/0x03$ \ls
 julien@ubuntu:/tmp/0x03$ 
 ```
+---
 Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
@@ -98,7 +99,7 @@ Repo:
    
 ## 1. Hello you
 
-Create a script that prints hello user, where user is the current Linux user.
+Create a script that prints `hello user`, where user is the current Linux user.
 ```
 julien@ubuntu:/tmp/0x03$ id
 uid=1000(julien) gid=1000(julien) groups=1000(julien),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare)
@@ -106,6 +107,7 @@ julien@ubuntu:/tmp/0x03$ ./1-hello_you
 hello julien
 julien@ubuntu:/tmp/0x03$
 ```
+---
 Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
@@ -114,7 +116,7 @@ Repo:
    
 ## 2. The path to success is to take massive, determined action
 
-Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
+Add `/action` to the `PATH`. `/action` should be the last directory the shell looks into when looking for a program.
 ```
 julien@ubuntu:/tmp/0x03$ echo $PATH
 /home/julien/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
@@ -123,6 +125,7 @@ julien@ubuntu:/tmp/0x03$ echo $PATH
 /home/julien/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/action
 julien@ubuntu:/tmp/0x03$
 ```
+---
 Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
@@ -131,7 +134,7 @@ Repo:
    
 ## 3. If the path be beautiful, let us not ask where it leads
 
-Create a script that counts the number of directories in the PATH.
+Create a script that counts the number of directories in the `PATH`.
 
 ```
 julien@ubuntu:/tmp/0x03$ echo $PATH
@@ -143,6 +146,7 @@ julien@ubuntu:/tmp/0x03$ . ./3-paths
 12
 julien@ubuntu:/tmp/0x03$
 ```
+---
 Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
@@ -193,7 +197,7 @@ LOGNAME=franky
 [...]
 julien@ubuntu:/tmp/0x03$
 ```
-
+---
 Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
@@ -228,7 +232,7 @@ DESKTOP_SESSION=ubuntu
 [...]
 julien@ubuntu:/tmp/0x03$
 ```
-
+---
 Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
@@ -239,9 +243,12 @@ Repo:
 
 Create a script that creates a new local variable.
 
-Name: BEST
-Value: School
+- Name: `BEST`
+- Value: `School`
+
+---
 Repo:
+
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x03-shell_variables_expansions`
@@ -251,9 +258,12 @@ Repo:
 
 Create a script that creates a new global variable.
 
-Name: BEST
-Value: School
+- Name: `BEST`
+- Value: `School`
+
+---
 Repo:
+
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x03-shell_variables_expansions`
@@ -269,7 +279,7 @@ julien@production-503e7013:~$ ./8-true_knowledge | cat -e
 1337$
 julien@production-503e7013:~$
 ```
-
+---
 Repo:
 
 - GitHub repository: alx-system_engineering-devops
@@ -278,9 +288,9 @@ Repo:
    
 ## 9. Divide and rule
 
-Write a script that prints the result of POWER divided by `DIVIDE`, followed by a new line.
+Write a script that prints the result of `POWER` divided by `DIVIDE`, followed by a new line.
 
-POWER and DIVIDE are environment variables
+- `POWER` and `DIVIDE` are environment variables
 ```
 julien@production-503e7013:~$ export POWER=42784
 julien@production-503e7013:~$ export DIVIDE=32
@@ -288,6 +298,7 @@ julien@production-503e7013:~$ ./9-divide_and_rule | cat -e
 1337$
 julien@production-503e7013:~$
 ```
+---
 Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
@@ -296,10 +307,10 @@ Repo:
    
 ## 10. Love is anterior to life, posterior to death, initial of creation, and the exponent of breath
 
-Write a script that displays the result of BREATH to the power LOVE
+Write a script that displays the result of `BREATH` to the power `LOVE`
 
-BREATH and LOVE are environment variables
-The script should display the result, followed by a new line
+- `BREATH` and `LOVE` are environment variables
+- The script should display the result, followed by a new line
 
 ```
 julien@production-503e7013:~/$ export BREATH=4
@@ -308,7 +319,7 @@ julien@production-503e7013:~/$ ./10-love_exponent_breath
 64
 julien@production-503e7013:~/$
 ```
-
+---
 Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
@@ -319,8 +330,8 @@ Repo:
 
 Write a script that converts a number from base 2 to base 10.
 
-The number in base 2 is stored in the environment variable BINARY
-The script should display the number in base 10, followed by a new line
+- The number in base 2 is stored in the environment variable `BINARY`
+- The script should display the number in base 10, followed by a new line
 
 ```
 julien@production-503e7013:~/$ export BINARY=10100111001
@@ -328,7 +339,7 @@ julien@production-503e7013:~/$ ./11-binary_to_decimal
 1337
 julien@production-503e7013:~/$
 ```
-
+---
 Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
@@ -337,13 +348,14 @@ Repo:
    
 ## 12. Combination
 
-Create a script that prints all possible combinations of two letters, except oo.
+Create a script that prints all possible combinations of two letters, except `oo`.
 
-Letters are lower cases, from a to z
-One combination per line
-The output should be alpha ordered, starting with aa
-Do not print oo
-Your script file should contain maximum 64 characters
+- Letters are lower cases, from `a` to `z`
+- One combination per line
+- The output should be alpha ordered, starting with `aa`
+- Do not print `oo`
+- Your script file should contain maximum 64 characters
+
 ```
 julien@ubuntu:/tmp/0x03$ echo $((26 ** 2 -1))
 675
@@ -363,7 +375,7 @@ or
 os
 julien@ubuntu:/tmp/0x03$
 ```
-
+---
 Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
@@ -387,6 +399,7 @@ ubuntu@ip-172-31-63-244:~/0x03$ ./13-print_float
 3.14
 ubuntu@ip-172-31-63-244:~/0x03$
 ```
+---
 Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
@@ -397,8 +410,9 @@ Repo:
 
 Write a script that converts a number from base 10 to base 16.
 
-The number in base 10 is stored in the environment variable DECIMAL
-The script should display the number in base 16, followed by a new line
+- The number in base 10 is stored in the environment variable `DECIMAL`
+- The script should display the number in base 16, followed by a new line
+
 ```
 julien@production-503e7013:~/$ export DECIMAL=16
 julien@production-503e7013:~/$ ./100-decimal_to_hexadecimal
@@ -411,6 +425,7 @@ julien@production-503e7013:~/$ ./100-decimal_to_hexadecimal | cat -e
 f$
 julien@production-503e7013:~/$
 ```
+---
 Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
@@ -429,7 +444,7 @@ julien@production-503e7013:~/shell/fun_with_the_shell$ ./101-rot13 < quote
 - Qbebgul R. Qraavat
 julien@production-503e7013:~/shell/fun_with_the_shell$
 ```
-
+---
 Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
@@ -487,7 +502,7 @@ usr
 vmlinuz
 ubuntu@ip-172-31-63-244:/$
 ```
-
+---
 Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
@@ -496,11 +511,11 @@ Repo:
    
 ## 17. I'm an instant star. Just add water and stir.
 
-Write a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
+Write a shell script that adds the two numbers stored in the environment variables `WATER` and `STIR` and prints the result.
 
-WATER is in base water
-STIR is in base stir.
-The result should be in base bestchol
+- `WATER` is in base `water`
+- `STIR` is in base `stir`.
+- The result should be in base `bestchol`
 ```
 julien@production-503e7013:~$ export WATER="ewwatratewa"
 julien@production-503e7013:~$ export STIR="ti.itirtrtr"
@@ -508,9 +523,9 @@ julien@production-503e7013:~$ ./103-water_and_stir
 shtbeolhc
 julien@production-503e7013:~$
 ````
+---
 Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x03-shell_variables_expansions`
 - File: `103-water_and_stir`
-   
