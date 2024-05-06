@@ -54,17 +54,22 @@ Examples:
 Not passing `Shellcheck`:
 
 https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/251/Vxotqyj.png
+
 Passing `Shellcheck`:
 
 https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/251/ubHWxDU.png
+
 For every feedback, Shellcheck will provide a code that you can use to get more information about the issue, for example for code `SC2034`, you can browse https://intranet.alxswe.com/rltoken/dxp49_rfO4_9Yjtcg59exg.
+
 ---
 # Tasks
 ## 0. Create a SSH RSA key pair
 Read for this task:
 - [Linux and Mac OS users](https://intranet.alxswe.com/rltoken/Cy1plV2eR3VphjPqliXB8A)
 - [Windows users](https://intranet.alxswe.com/rltoken/074M_gTsD34x3Q6MX55PDw)
+
 man: `ssh-keygen`
+
 You will soon have to manage your own `servers` concept page hosted on remote [data centers](https://intranet.alxswe.com/rltoken/nDPzEm5SYxcdGxP_OpVYXQ). We need to set them up with your RSA public key so that you can access them via SSH.
 
 Create a RSA key pair.
