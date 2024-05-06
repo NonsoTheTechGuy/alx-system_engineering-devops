@@ -1,13 +1,12 @@
-# About Bash Project: 0x05. Processes and Signals
+# About Bash Project: 0x03. Shell, init files, variables and expansions
 
 ## Concepts
 For this project, we expect you to look at this concept:
 
 - [Struggling with the sandbox? Try this: Using Docker & WSL on your local host](https://intranet.alxswe.com/concepts/100039)
 
-
-Resources
-Read or watch:
+# Resources
+## Read or watch:
 - [Expansions](https://intranet.alxswe.com/rltoken/oXnzBjLBA9t9dr7WuftdmQ)
 - [Shell Arithmetic](https://intranet.alxswe.com/rltoken/PLSUQnBcKKU5eEgRfRDlug)
 - [Variables](https://intranet.alxswe.com/rltoken/SvdGNZJjKsPghzZEhaWu4Q)
@@ -15,7 +14,7 @@ Read or watch:
 - [The alias Command](https://intranet.alxswe.com/rltoken/1Z3nYPjmidqQJXcWQ9Fkug)
 - [Technical Writing](https://intranet.alxswe.com/rltoken/wYrZr3t3DeAE8PpYHYWGiw)
 
-man or help:
+## man or help:
 - printenv
 - set
 - unset
