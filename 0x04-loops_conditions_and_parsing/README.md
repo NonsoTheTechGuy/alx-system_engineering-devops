@@ -1,4 +1,4 @@
-# About Bash Project: 0x04. Loops, conditions and parsing
+# About Bash Project: 0x04. Loops, conditions and parsing 😉
 
 ## Resources
 ---
@@ -749,4 +749,4 @@ Repo:
 
 ## Author
 
-KALU JONAH CHINONSO
+## KALU JONAH CHINONSO 😃
