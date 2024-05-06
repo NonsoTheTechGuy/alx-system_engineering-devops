@@ -1,3 +1,6 @@
+### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
+
+> Classic markup: :wink:
 # About Bash Project: 0x02. Shell, I/O Redirections and filters
 
 ## Concepts
