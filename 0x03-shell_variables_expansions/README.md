@@ -1,4 +1,5 @@
-# About Bash Project: 0x03. Shell, init files, variables and expansions
+[](https://github.com/markdown-it/markdown-it-emoji) 
+# About Bash Project: 0x03. Shell, init files, variables and expansions 😉
 
 ## Concepts
 For this project, we expect you to look at this concept:
@@ -529,3 +530,8 @@ Repo:
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x03-shell_variables_expansions`
 - File: `103-water_and_stir`
+
+
+# Author
+
+## KALU JONAH CHINONSO 😃
