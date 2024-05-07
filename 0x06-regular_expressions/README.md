@@ -48,7 +48,7 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
 
 ## 0. Simply matching School
 
-https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/ec65557f0da1fbfbff6659413885e4d4822f5b1d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240507%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240507T203951Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=1b83c7ca483805a66af9c0d33857ecd6f91728b03ce9e131f33f648671f6719f
+![image](https://github.com/NonsoTheTechGuy/alx-system_engineering-devops/assets/92136146/57780cd5-6a43-4419-b90c-374662c11dc9)
 
 ## Requirements:
 
@@ -75,7 +75,8 @@ Repo:
 
 ## 1. Repetition Token #0
 
-https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/e7db3c377d46453588fc84f3a975661d142fee91.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240507%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240507T203951Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=797160eff15553dc84dc491b8c28f590aac1a923f36fc176cad944ed8af9ea72
+![image](https://github.com/NonsoTheTechGuy/alx-system_engineering-devops/assets/92136146/8049c42a-2859-45e2-9e2d-27779b436e03)
+
 
 ## Requirements:
 
@@ -91,7 +92,7 @@ Repo:
 
 ## 2. Repetition Token #1
 
-https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/c59ff11db195d5cf17d1790a5141ae2f234786d2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240507%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240507T203951Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b51c31278e89a61eac27c7d11656f288edccaae0abb7a5441b745a2e1befb59c
+![image](https://github.com/NonsoTheTechGuy/alx-system_engineering-devops/assets/92136146/0ae7c7e1-839c-4d36-bedd-ea0f285aa295)
 
 ## Requirements:
 
@@ -107,7 +108,7 @@ Repo:
 
 ## 3. Repetition Token #2
 
-https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/3b6bf4aeca6a0c2de584e7f5d68d11eef57ce205.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240507%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240507T203951Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=9d28c4cf307b27ab249697ee3ae590f482c0c607c7450f5f7227a7b91c8f29fe
+![image](https://github.com/NonsoTheTechGuy/alx-system_engineering-devops/assets/92136146/5b4e6f72-27e9-48f8-b9ce-72a9b3efeb21)
 
 ## Requirements:
 
