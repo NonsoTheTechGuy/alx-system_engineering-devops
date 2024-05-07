@@ -4,6 +4,8 @@
 # About Bash Project: 0x06. Regular expression  :wink:
 ## Regex DevOps
 
+![image](https://github.com/NonsoTheTechGuy/alx-system_engineering-devops/assets/92136146/0abb0310-b50f-4ff1-be0f-41aa6fd12632)
+
 ## Concepts
 For this project, we expect you to look at this concept:
 
