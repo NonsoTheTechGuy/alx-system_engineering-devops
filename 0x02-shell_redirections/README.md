@@ -239,9 +239,9 @@ $
 
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x02-shell_redirections
-File: 5-firstlines
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x02-shell_redirections`
+- File: `5-firstlines`
 
 ## 6. Line #2
 
