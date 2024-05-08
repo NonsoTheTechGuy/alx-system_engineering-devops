@@ -1,8 +1,8 @@
 [](https://github.com/markdown-it/markdown-it-emoji)
 
 
-# About Bash Project: 0x06. Regular expression  :wink:
-## Regex DevOps
+# Project: 0x06. Regular expression  :wink:
+## `Regex` `DevOps`
 
 ![image](https://github.com/NonsoTheTechGuy/alx-system_engineering-devops/assets/92136146/0abb0310-b50f-4ff1-be0f-41aa6fd12632)
 
@@ -68,7 +68,7 @@ sylvain@ubuntu$ ./0-simply_match_school.rb "Grace Hopper" | cat -e
 $
 ```
 ---
-Repo:
+## Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x06-regular_expressions`
@@ -86,7 +86,7 @@ Repo:
 - Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
 ---
 
-Repo:
+## Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x06-regular_expressions`
@@ -101,7 +101,7 @@ Repo:
 - Find the regular expression that will match the above cases
 - Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
 ---
-Repo:
+## Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x06-regular_expressions`
@@ -118,7 +118,7 @@ Repo:
 - Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
 ---
 
-Repo:
+## Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x06-regular_expressions`
@@ -134,7 +134,7 @@ Repo:
 - Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
 - Your regex should not contain square brackets
 ---
-Repo:
+## Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x06-regular_expressions`
@@ -161,7 +161,7 @@ sylvain@ubuntu$
 $
 ```
 ---
-Repo:
+## Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x06-regular_expressions`
@@ -188,7 +188,7 @@ $
 sylvain@ubuntu$
 ```
 ---
-Repo:
+## Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x06-regular_expressions`
@@ -212,7 +212,7 @@ $
 sylvain@ubuntu$
 ```
 ---
-Repo:
+## Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x06-regular_expressions`
@@ -250,7 +250,7 @@ $ ./100-textme.rb 'Feb 1 11:00:00 ip-10-0-64-11 mdr: 2016-02-01 11:00:00 Sent SM
 $
 ```
 ---
-Repo:
+## Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x06-regular_expressions`
