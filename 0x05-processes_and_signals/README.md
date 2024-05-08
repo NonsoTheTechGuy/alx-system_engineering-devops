@@ -1,4 +1,4 @@
-# About Bash Project: 0x05. Processes and Signals 😢
+# Project: 0x05. Processes and Signals 😢
 
 ## Resources
 ---
