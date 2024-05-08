@@ -1,4 +1,4 @@
-# About Bash Project: 0x04. Loops, conditions and parsing 😉
+# Project: 0x04. Loops, conditions and parsing 😉
 
 ## Resources
 ---
@@ -747,6 +747,6 @@ Repo:
 - File: `103-dig_the-data`
 
 
-## Author
+# Author
 
 ## KALU JONAH CHINONSO 😃
