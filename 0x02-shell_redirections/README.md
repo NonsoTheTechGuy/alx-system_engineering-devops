@@ -2,6 +2,7 @@
 
 
 # About Bash Project: 0x02. Shell, I/O Redirections and filters :wink:
+## `DevOps`  `Shell`  `Bash`
 
 ## Concepts
 For this project, we expect you to look at this concept:
