@@ -318,9 +318,9 @@ julien@ubuntu:/tmp/h$
 ```
 ## Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x01-shell_permissions
-File: 11-directories_permissions
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x01-shell_permissions`
+- File: `11-directories_permissions`
    
 ## 12. More directories
 
