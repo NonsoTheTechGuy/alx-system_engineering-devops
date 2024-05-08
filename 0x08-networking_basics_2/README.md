@@ -3,7 +3,7 @@
 
 # About Bash Project: 0x08. Networking basics #1 :wink:
 
-## DevOps Network SysAdmin
+## `DevOps` `Network` `SysAdmin`
 
 
 ![image](https://github.com/NonsoTheTechGuy/alx-system_engineering-devops/assets/92136146/ecb0374e-b61a-4fd3-a97b-deb1f0219b54)
