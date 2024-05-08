@@ -1,8 +1,7 @@
 [](https://github.com/markdown-it/markdown-it-emoji)
 
-
-# About Bash Project: 0x07. Networking basics #0 :wink:
-## DevOps Network
+# Project: 0x07. Networking basics #0 :wink:
+## `DevOps` `Network`
 
 # Resources
 ## Read or watch:
@@ -122,7 +121,7 @@ How is the OSI model organized?
 - Randomly
 
 ---
-Repo:
+## Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x07-networking_basics`
@@ -179,7 +178,7 @@ What is an IP address?
 - The unique identifier of a network interface
 - Is a number that network devices use to connect to networks
 ---
-Repo:
+## Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x07-networking_basics`
@@ -204,7 +203,7 @@ Questions:
   - `Have you received boxes x, y, z?`
   - `May I increase the rate at which I am sending you boxes?`
 ---
-Repo:
+## Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x07-networking_basics`
@@ -259,7 +258,7 @@ unix  2      [ ACC ]     SEQPACKET  LISTENING     7156     378/systemd-udevd   /
 sylvain@ubuntu$
 ```
 ---
-Repo:
+## Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x07-networking_basics`
@@ -303,7 +302,7 @@ It is interesting to look at the `time` value, which is the time that it took fo
 
 Next time you feel that your connection is slow, try the `ping` command to see what is going on!
 ---
-Repo:
+## Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x07-networking_basics`
