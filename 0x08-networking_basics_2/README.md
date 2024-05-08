@@ -100,7 +100,7 @@ In this example we can see that:
 
 If you’re running this script on a machine that you’ll continue to use, be sure to revert `localhost` to `127.0.0.1`. Otherwise, a lot of things will stop working!
 ---
-Repo:
+## Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x08-networking_basics_2`
@@ -121,7 +121,7 @@ Obviously, the IPs displayed may be different depending on which machine you are
 
 Note that we can see our `localhost` IP :)
 ---
-Repo:
+## Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x08-networking_basics_2`
@@ -161,7 +161,7 @@ For the sake of the exercise, this connection is made entirely within `localhost
 
 As you can see, this can come in very handy in a multitude of situations. Maybe you’re debugging socket connection issues, or you’re trying to connect to a software and you are unsure if the issue is the software or the network, or you’re working on firewall rules… Another tool to add to your debugging toolbox!
 ---
-Repo:
+## Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x08-networking_basics_2`
