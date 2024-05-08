@@ -1,7 +1,7 @@
 [](https://github.com/markdown-it/markdown-it-emoji)
 
 
-# About Bash Project: 0x08. Networking basics #1 :wink:
+# Project: 0x08. Networking basics #1 :wink:
 
 ## `DevOps` `Network` `SysAdmin`
 
