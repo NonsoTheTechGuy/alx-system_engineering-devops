@@ -1,5 +1,5 @@
 [](https://github.com/markdown-it/markdown-it-emoji) 
-# About Bash Project: 0x03. Shell, init files, variables and expansions 😉
+# Project: 0x03. Shell, init files, variables and expansions 😉
 
 ## Concepts
 For this project, we expect you to look at this concept:
