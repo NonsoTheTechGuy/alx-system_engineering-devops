@@ -128,20 +128,87 @@ Repo:
 - Directory: `0x07-networking_basics`
 - File: `0-OSI_model`
 
+## 1. Types of network
+
+![image](https://github.com/NonsoTheTechGuy/alx-system_engineering-devops/assets/92136146/32a22935-a1ca-4796-b51f-299eda4b9bc2)
 
 
+LAN connect local devices together, WAN connects LANs together, and WANs are operating over the Internet.
+
+Questions:
+
+What type of network a computer in local is connected to?
+
+- Internet
+- WAN
+- LAN
+
+What type of network could connect an office in one building to another office in a building a few streets away?
+
+Internet
+- WAN
+- LAN
+What network do you use when you browse www.google.com from your smartphone (not connected to the Wifi)?
+
+Internet
+- WAN
+- LAN
+- ---
+Repo:
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x07-networking_basics`
+- File: 1-types_of_network`
 
 
+## 2. MAC and IP address
+
+![image](https://github.com/NonsoTheTechGuy/alx-system_engineering-devops/assets/92136146/8e7fd983-f7f3-42a7-932c-de455603aa8f)
+
+Questions:
+
+What is a MAC address?
+
+- The name of a network interface
+- The unique identifier of a network interface
+- A network interface
+
+What is an IP address?
+
+- Is to devices connected to a network what postal address is to houses
+- The unique identifier of a network interface
+- Is a number that network devices use to connect to networks
+---
+Repo:
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x07-networking_basics`
+- File: `2-MAC_and_IP_address`
 
 
+## 3. UDP and TCP
 
+![image](https://github.com/NonsoTheTechGuy/alx-system_engineering-devops/assets/92136146/b8986a0e-8fd9-4550-8631-6dab53fce6cf)
 
+Let’s fill the empty parts in the drawing above.
 
+Questions:
 
+- Which statement is correct for the TCP box:
+  - `It is a protocol that is transferring data in a slow way but surely`
+  - `It is a protocol that is transferring data in a fast way and might loss data along in the process`
+- Which statement is correct for the UDP box:
+  - `It is a protocol that is transferring data in a slow way but surely`
+  - `It is a protocol that is transferring data in a fast way and might loss data along in the process`
+- Which statement is correct for the TCP worker:
+  - `Have you received boxes x, y, z?`
+  - `May I increase the rate at which I am sending you boxes?`
+---
+Repo:
 
-
-
-
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x07-networking_basics`
+- File: `3-UDP_and_TCP`
 
 
 
