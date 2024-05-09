@@ -1,7 +1,7 @@
 [](https://github.com/markdown-it/markdown-it-emoji)
 
 
-# About Bash Project: 0x02. Shell, I/O Redirections and filters :wink:
+# Project: 0x02. Shell, I/O Redirections and filters :wink:
 ## `DevOps`  `Shell`  `Bash`
 
 ## Concepts
