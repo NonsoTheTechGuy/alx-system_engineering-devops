@@ -492,9 +492,8 @@ ubuntu@ip-172-31-63-244:/tmp/emacs$
 - Directory: `0x00-shell_basics`
 = File: `101-clean_emacs`
    
-17. Tree
-#advanced
-Score: 100.0% (Checks completed: 100.0%)
+## 17. Tree
+ 
 Create a script that creates the directories `welcome/`, `welcome/to/` and `welcome/to/school` in the current directory.
 
 - You are only allowed to use two spaces (and lines) in your script, not more.
