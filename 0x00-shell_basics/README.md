@@ -1,4 +1,4 @@
-# 0x00. Shell, basics 😙
+# PROJECT: 0x00. Shell, basics 😙
 ## `DevOps` `Shell` `Bash`
 
 ### About `Bash` projects
