@@ -100,7 +100,7 @@ For this project, we expect you to look at this concept:
 - Common shortcuts for Bash
 
 ## LTS
-- What does LTS mean?
+- What does `LTS` mean?
 
 # Requirements
 
