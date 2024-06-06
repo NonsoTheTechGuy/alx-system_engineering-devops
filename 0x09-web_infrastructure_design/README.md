@@ -186,7 +186,7 @@ Add URLs here:
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x09-web_infrastructure_design`
 - File: `2-secured_and_monitored_web_infrastructure`
-Copyright © 2024 ALX, All rights reserved.
+
 
 # Author
 
