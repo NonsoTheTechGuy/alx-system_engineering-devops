@@ -585,7 +585,7 @@ ubuntu@ip-172-31-63-244:/tmp/magic$
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x00-shell_basics`
- File: `school.mgc`
+- File: `school.mgc`
    
 # Author
 
