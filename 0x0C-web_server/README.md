@@ -237,7 +237,9 @@ YOU can have a free .tech domain for 1 year by following these steps:
 - Start to register your domain and checkout
 - At the Checkout step, please click on “Login with GitHub”:
 
- ![image](https://github.com/user-attachments/assets/ed8a909b-1d43-4d19-bb15-2eefaccdb976)
+![image](https://github.com/user-attachments/assets/f0b40400-a11c-4f20-bfb2-fd2f8d716bab)
+
+![image](https://github.com/user-attachments/assets/ed8a909b-1d43-4d19-bb15-2eefaccdb976)
 
 - The cost of the domain should be now at $0
 - You can finalize it by creating an account in [.Tech domains](https://get.tech/)
