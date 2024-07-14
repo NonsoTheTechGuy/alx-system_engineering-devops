@@ -1,6 +1,5 @@
-# ALXCurriculum
- 
-# PROJECT0x0F. Load balancer
+# ALX Curriculum
+# PROJECT - 0x0F. Load balancer
 ## `DevOps` `SysAdmin`
 
 ## Concepts
