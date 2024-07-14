@@ -107,7 +107,7 @@ Name	Username	IP	State
 
 Write a Bash script that transfers a file from our client to a server:
 
-Requirements:
+### Requirements:
 
 - Accepts 4 parameters
     - The path to the file to be transferred
@@ -160,7 +160,7 @@ Readme:
 - [-y on apt-get command](https://intranet.alxswe.com/rltoken/KJiFZ4yJyTGp_cv3DYQLaQ)
 Web servers are the piece of software generating and serving HTML pages, let’s install one!
 
-Requirements:
+### Requirements:
 
 - Install `nginx` on your `web-01`
 - server
@@ -226,28 +226,34 @@ YOU can have a free .tech domain for 1 year by following these steps:
 ![image](https://github.com/user-attachments/assets/8e4f1457-f364-49dc-9cfb-578e496fbebd)
 
 
-When registered, access your benefits:
+When registered, access your [benefits](https://github.com/login?client_id=de7e3b6548f2ed9bbceb&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3Dde7e3b6548f2ed9bbceb%26redirect_uri%3Dhttps%253A%252F%252Feducation.github.com%252Fauth%252Fgithubber%252Fcallback%26response_type%3Dcode%26scope%3Dread%253Auser%26state%3D3cbd7536e1f790e9f372dce1d64193884e9b0a0903eb9bba):
 
+https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2024/1/eb4046306303faed2a6de4fdd634d5ac959fd763.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240714%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240714T004621Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=07193d88f329ecc6838aa205b9fa88a360a1134e192bad8d98deed06459e6862
 
 And scroll to .Tech domain:
 
+![image](https://github.com/user-attachments/assets/9ab37fc8-230b-4a90-aaf6-4657be644921)
 
-Start to register your domain and checkout
-At the Checkout step, please click on “Login with GitHub”:
- 
+- Start to register your domain and checkout
+- At the Checkout step, please click on “Login with GitHub”:
 
-The cost of the domain should be now at $0
-You can finalize it by creating an account in .Tech domains
-And manage your domain there!
+ ![image](https://github.com/user-attachments/assets/ed8a909b-1d43-4d19-bb15-2eefaccdb976)
+
+- The cost of the domain should be now at $0
+- You can finalize it by creating an account in [.Tech domains](https://get.tech/)
+- And manage your domain there!
+
 Provide the domain name in your answer file.
 
-Requirement:
+### Requirement:
 
-provide the domain name only (example: foobar.tech), no subdomain (example: www.foobar.tech)
-configure your DNS records with an A entry so that your root domain points to your web-01 IP address Warning: the propagation of your records can take time (~1-2 hours)
-go to your profile and enter your domain in the Project website url field
+- provide the domain name only (example: `foobar.tech`), no subdomain (example: `www.foobar.tech`)
+- configure your DNS records with an A entry so that your root domain points to your `web-01` IP address 
+### Warning: the propagation of your records can take time (~1-2 hours)
+- go to [your profile](https://intranet.alxswe.com/users/my_profile) and enter your domain in the `Project website url` field
+
 Example:
-
+```
 sylvain@ubuntu$ cat 2-setup_a_domain_name
 myschool.tech
 sylvain@ubuntu$
@@ -273,7 +279,9 @@ myschool.tech.  7199    IN  A   184.72.193.201
 ;; MSG SIZE  rcvd: 65
 
 sylvain@ubuntu$
-When your domain name is setup, please verify the Registrar here: https://whois.whoisxmlapi.com/ and you must see in the JSON response: "registrarName": "Dotserve Inc"
+```
+
+When your domain name is setup, please verify the Registrar here: [https://whois.whoisxmlapi.com/](https://whois.whoisxmlapi.com/) and you must see in the JSON response: `"registrarName"`: `"Dotserve Inc"`
 
 Repo:
 
@@ -281,21 +289,24 @@ GitHub repository: alx-system_engineering-devops
 Directory: 0x0C-web_server
 File: 2-setup_a_domain_name
     
-3. Redirection
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
+## 3. Redirection
+
+`mandatory`
+ 
 Readme:
 
-Replace a line with multiple lines with sed
-Configure your Nginx server so that /redirect_me is redirecting to another page.
+- [Replace a line with multiple lines with sed](https://intranet.alxswe.com/rltoken/RRP9hX3MlQdABaKZD-Y_cA)
 
-Requirements:
+Configure your Nginx server so that `/redirect_me` is redirecting to another page.
 
-The redirection must be a “301 Moved Permanently”
-You answer file should be a Bash script containing commands to automatically configure a Ubuntu machine to respect above requirements
-Using what you did with 1-install_nginx_web_server, write 3-redirection so that it configures a brand new Ubuntu machine to the requirements asked in this task
+### Requirements:
+
+- The redirection must be a “301 Moved Permanently”
+- You answer file should be a Bash script containing commands to automatically configure a Ubuntu machine to respect above requirements
+- Using what you did with `1-install_nginx_web_server`, write `3-redirection` so that it configures a brand new Ubuntu machine to the requirements asked in this task
+
 Example:
-
+```
 sylvain@ubuntu$ curl -sI 34.198.248.145/redirect_me/
 HTTP/1.1 301 Moved Permanently
 Server: nginx/1.4.6 (Ubuntu)
@@ -306,24 +317,27 @@ Connection: keep-alive
 Location: https://www.youtube.com/watch?v=QH2-TGUlwu4
 
 sylvain@ubuntu$
-Repo:
+```
+## Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x0C-web_server
-File: 3-redirection
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x0C-web_server`
+- File: `3-redirection`
     
-4. Not found page 404
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
-Configure your Nginx server to have a custom 404 page that contains the string Ceci n'est pas une page.
+## 4. Not found page 404
 
-Requirements:
+`mandatory`
+ 
+Configure your Nginx server to have a custom 404 page that contains the string `Ceci n'est pas une page`.
 
-The page must return an HTTP 404 error code
-The page must contain the string Ceci n'est pas une page
-Using what you did with 3-redirection, write 4-not_found_page_404 so that it configures a brand new Ubuntu machine to the requirements asked in this task
+### Requirements:
+
+- The page must return an HTTP 404 error code
+- The page must contain the string `Ceci n'est pas une page`
+- Using what you did with `3-redirection`, write `4-not_found_page_404` so that it configures a brand new Ubuntu machine to the requirements asked in this task
+
 Example:
-
+```
 sylvain@ubuntu$ curl -sI 34.198.248.145/xyz
 HTTP/1.1 404 Not Found
 Server: nginx/1.4.6 (Ubuntu)
@@ -337,11 +351,12 @@ sylvain@ubuntu$ curl 34.198.248.145/xyzfoo
 Ceci n'est pas une page
 
 sylvain@ubuntu$
-Repo:
+```
+## Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x0C-web_server
-File: 4-not_found_page_404
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x0C-web_server`
+- File: `4-not_found_page_404`
     
-Copyright © 2024 ALX, All rights reserved.
-
+# Author
+## KALU JONAH CHINONSO
