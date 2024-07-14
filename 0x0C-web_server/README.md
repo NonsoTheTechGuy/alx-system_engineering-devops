@@ -226,11 +226,11 @@ YOU can have a free .tech domain for 1 year by following these steps:
 ![image](https://github.com/user-attachments/assets/8e4f1457-f364-49dc-9cfb-578e496fbebd)
 
 
-When registered, access your [benefits](https://github.com/login?client_id=de7e3b6548f2ed9bbceb&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3Dde7e3b6548f2ed9bbceb%26redirect_uri%3Dhttps%253A%252F%252Feducation.github.com%252Fauth%252Fgithubber%252Fcallback%26response_type%3Dcode%26scope%3Dread%253Auser%26state%3D3cbd7536e1f790e9f372dce1d64193884e9b0a0903eb9bba):
+### - When registered, access your [benefits](https://github.com/login?client_id=de7e3b6548f2ed9bbceb&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3Dde7e3b6548f2ed9bbceb%26redirect_uri%3Dhttps%253A%252F%252Feducation.github.com%252Fauth%252Fgithubber%252Fcallback%26response_type%3Dcode%26scope%3Dread%253Auser%26state%3D3cbd7536e1f790e9f372dce1d64193884e9b0a0903eb9bba):
 
 ![image](https://github.com/user-attachments/assets/457cfb56-52be-4b78-bb35-1cbdeb6a451d)
 
-And scroll to .Tech domain:
+### - And scroll to .Tech domain:
 
 ![image](https://github.com/user-attachments/assets/9ab37fc8-230b-4a90-aaf6-4657be644921)
 
