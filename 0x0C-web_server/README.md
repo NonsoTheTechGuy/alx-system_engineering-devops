@@ -17,6 +17,7 @@ In this project, some of the tasks will be graded on 2 aspects:
 
 - Is your `web-01` server configured according to requirements
 - Does your answer file contain a Bash script that automatically performs commands to configure an Ubuntu machine to fit requirements (meaning without any human intervention)
+
 For example, if I need to create a file `/tmp/test` containing the string `hello world` and modify the configuration of Nginx to listen on port `8080` instead of `80`, I can use `emacs` on my server to create the file and to modify the Nginx configuration file `/etc/nginx/sites-enabled/default`.
 
 But my answer file would contain:
@@ -59,8 +60,8 @@ For reference:
 
 # man or help:
 
-`scp`
-`curl`
+- `scp`
+- `curl`
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/EHyxcIwPtD2SzEGRKOnT3g), without the help of Google:
@@ -116,6 +117,7 @@ Requirements:
 - Display `Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY` if less than 3 parameters passed
 - `scp` must transfer the file to the user home directory ~/
 - Strict host key checking must be disabled when using `scp`
+
 Example:
 ```
 sylvain@ubuntu$ ./0-transfer_file
@@ -134,10 +136,11 @@ sylvain@ubuntu$
 ```
 In this example, I:
 
-remotely execute the `ls ~/` command via `ssh` to see what `~/` contains
-create a file named `some_page.html`
-execute my `-transfer_file` script
-remotely execute the `ls ~/` command via `ssh` to see that the file `some_page.html` has been successfully transferred
+- remotely execute the `ls ~/` command via `ssh` to see what `~/` contains
+- create a file named `some_page.html`
+- execute my `-transfer_file` script
+- remotely execute the `ls ~/` command via `ssh` to see that the file `some_page.html` has been successfully transferred
+
 That is one way of publishing your website pages to your server.
 
 ## Repo:
@@ -146,33 +149,37 @@ That is one way of publishing your website pages to your server.
 - Directory: `0x0C-web_server`
 - File: `0-transfer_file`
     
-1. Install nginx web server
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
+# 1. Install nginx web server
 
+`mandatory`
+ 
+![image](https://github.com/user-attachments/assets/b27c6b61-ff42-446c-a16d-521b8e0d7345)
 
 Readme:
 
--y on apt-get command
+- [-y on apt-get command](https://intranet.alxswe.com/rltoken/KJiFZ4yJyTGp_cv3DYQLaQ)
 Web servers are the piece of software generating and serving HTML pages, let’s install one!
 
 Requirements:
 
-Install nginx on your web-01
-server
-Nginx should be listening on port 80
-When querying Nginx at its root / with a GET request (requesting a page) using curl, it must return a page that contains the string Hello World!
-As an answer file, write a Bash script that configures a new Ubuntu machine to respect above requirements (this script will be run on the server itself)
-You can’t use systemctl for restarting nginx
-Server terminal:
+- Install `nginx` on your `web-01`
+- server
+- Nginx should be listening on port 80
+- When querying Nginx at its root / with a GET request (requesting a page) using `curl`, it must return a page that contains the string `Hello World!`
+- As an answer file, write a Bash script that configures a new Ubuntu machine to respect above requirements (this script will be run on the server itself)
+- You can’t use `systemctl` for restarting `nginx`
 
+Server terminal:
+```
 root@sy-web-01$ ./1-install_nginx_web_server > /dev/null 2>&1
 root@sy-web-01$ 
 root@sy-web-01$ curl localhost
 Hello World!
 root@sy-web-01$ 
-Local terminal:
+```
 
+Local terminal:
+```
 sylvain@ubuntu$ curl 34.198.248.145/
 Hello World!
 sylvain@ubuntu$ curl -sI 34.198.248.145/
@@ -187,29 +194,36 @@ ETag: "58abea7c-1e"
 Accept-Ranges: bytes
 
 sylvain@ubuntu$
-In this example 34.198.248.145 is the IP of my web-01 server. If you want to query the Nginx that is locally installed on your server, you can use curl 127.0.0.1.
+```
 
-If things are not going as expected, make sure to check out Nginx logs, they can be found in /var/log/.
+In this example `34.198.248.145` is the IP of my `web-01` server. If you want to query the Nginx that is locally installed on your server, you can use `curl` `127.0.0.1`.
 
-Maarten’s PRO-tip: When you use sudo su on your web-01 you can become root like this to test your file:
+If things are not going as expected, make sure to check out Nginx logs, they can be found in `/var/log/`
 
+### Maarten’s PRO-tip: When you use `sudo su` on your web-01 you can become root like this to test your file:
+```
 sylvain@ubuntu$ sudo su
 root@ubuntu#
-Repo:
+```
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x0C-web_server
-File: 1-install_nginx_web_server
+## Repo:
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x0C-web_server`
+- File: `1-install_nginx_web_server`
     
-2. Setup a domain name
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
-.TECH Domains is one of the top domain providers. They are known for the stability and quality of their DNS hosting solution. We partnered with .TECH Domains so that you can learn about DNS.
+## 2. Setup a domain name
+
+`mandatory`
+ 
+[.TECH Domains](https://get.tech/) is one of the top domain providers. They are known for the stability and quality of their DNS hosting solution. We partnered with .TECH Domains so that you can learn about DNS.
 
 YOU can have a free .tech domain for 1 year by following these steps:
 
-Access the tools space
-Unlock the GitHub student pack: WARNING - this invitation link is unique to you and can’t be reclaimed! If you have any issue, please contact GitHub education support
+- Access the [tools space](https://intranet.alxswe.com/dashboards/my_tools)
+- Unlock the GitHub student pack: WARNING - this invitation link is unique to you and can’t be reclaimed! If you have any issue, please contact [GitHub education support](https://support.github.com/request/landing)
+
+![image](https://github.com/user-attachments/assets/8e4f1457-f364-49dc-9cfb-578e496fbebd)
 
 
 When registered, access your benefits:
