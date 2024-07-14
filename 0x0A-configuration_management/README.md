@@ -1,6 +1,7 @@
-# Curriculum SE Foundations
+# Curriculum 
+# SE Foundations
 # PROJECT - 0x0A. Configuration management
-## `DevOps` `SysAdmin` Scripting` `CI/CD`
+## `DevOps` `SysAdmin` `Scripting` `CI/CD`
 
 ## Background Context
 
