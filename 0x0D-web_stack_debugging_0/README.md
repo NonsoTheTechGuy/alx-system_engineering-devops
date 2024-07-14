@@ -10,7 +10,8 @@ For this project, we expect you to look at these concepts:
 - [Docker](https://intranet.alxswe.com/concepts/65)
 - [Web stack debugging](https://intranet.alxswe.com/concepts/68)
 
-![Uploading image.png…]()
+
+![image](https://github.com/user-attachments/assets/321953df-6972-4607-9b86-ae09bcd37649)
 
 
 ## Background Context
