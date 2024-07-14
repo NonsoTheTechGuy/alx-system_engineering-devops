@@ -228,7 +228,7 @@ YOU can have a free .tech domain for 1 year by following these steps:
 
 When registered, access your [benefits](https://github.com/login?client_id=de7e3b6548f2ed9bbceb&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3Dde7e3b6548f2ed9bbceb%26redirect_uri%3Dhttps%253A%252F%252Feducation.github.com%252Fauth%252Fgithubber%252Fcallback%26response_type%3Dcode%26scope%3Dread%253Auser%26state%3D3cbd7536e1f790e9f372dce1d64193884e9b0a0903eb9bba):
 
-https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2024/1/eb4046306303faed2a6de4fdd634d5ac959fd763.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240714%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240714T004621Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=07193d88f329ecc6838aa205b9fa88a360a1134e192bad8d98deed06459e6862
+![image](https://github.com/user-attachments/assets/457cfb56-52be-4b78-bb35-1cbdeb6a451d)
 
 And scroll to .Tech domain:
 
@@ -283,11 +283,11 @@ sylvain@ubuntu$
 
 When your domain name is setup, please verify the Registrar here: [https://whois.whoisxmlapi.com/](https://whois.whoisxmlapi.com/) and you must see in the JSON response: `"registrarName"`: `"Dotserve Inc"`
 
-Repo:
+## Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x0C-web_server
-File: 2-setup_a_domain_name
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x0C-web_server`
+- File: `2-setup_a_domain_name`
     
 ## 3. Redirection
 
