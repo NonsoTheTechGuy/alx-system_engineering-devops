@@ -10,18 +10,19 @@ A way to easily assess this is to simply ask an engineer to explain how a softwa
 
 Let’s practice by exploring the infrastructure side (network, servers, security…) of the question.
 
-```diff
-- text in red
-@@
-```
-
 ![image](https://github.com/user-attachments/assets/ef7d13cc-13ac-4b9e-adc4-066352ab50c6)
 
 
 # Requirements
 ## General
 - You can post your blog post on the platform of your choice, LinkedIn or Medium are good ones
-- A `README.md` file, at the root of the folder of the project, is mandatory
+- A `README.md` file, at the root of the folder of the project, is mandatory.
+- 
+A
+```diff
+ - `README.md` 
+```
+file, at the root of the folder of the project, is mandatory.
 
 ## More Info
 Manual QA Review
