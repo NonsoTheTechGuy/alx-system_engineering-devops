@@ -1,7 +1,7 @@
-** # SE Foundations Curriculum **
+**SE Foundations Curriculum**
  
 # PROJECT - 0x11. What happens when you type google.com in your browser and press Enter
-* ## `DevOps` `Network` `SysAdmin`*
+*DevOps Network SysAdmin*
 
 # Background Context
 Being a Full-Stack Software Engineer means you’re comfortable interacting with any layer of the stack.
