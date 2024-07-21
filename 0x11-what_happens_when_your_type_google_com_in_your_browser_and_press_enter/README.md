@@ -15,8 +15,10 @@ Let’s practice by exploring the infrastructure side (network, servers, securit
 
 # Requirements
 ## General
-- You can post your blog post on the platform of your choice, LinkedIn or Medium are good ones
-- A ${\color{red}README.md}$$ file, at the root of the folder of the project, is mandatory.
+* You can post your blog post on the platform of your choice, LinkedIn or Medium are good ones
++ A ${\color{red}README.md}$$ file, at the root of the folder of the project, is mandatory.
+1. You can post your blog post on the platform of your choice, LinkedIn or Medium are good ones
+2. A ${\color{red}README.md}$$ file, at the root of the folder of the project, is mandatory.
 
 
 ## More Info
