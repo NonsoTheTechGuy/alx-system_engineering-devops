@@ -1,8 +1,9 @@
 # **SE Foundations Curriculum**
  
-# **PROJECT - 0x13. Firewall `DevOps` `SysAdmin` `Security`**
+# **PROJECT - 0x13. Firewall 
+## `DevOps` `SysAdmin` `Security`**
  
-**Concepts**
+## **Concepts**
 For this project, we expect you to look at this concept:
 + [Web stack debugging](https://intranet.alxswe.com/concepts/68)
 
