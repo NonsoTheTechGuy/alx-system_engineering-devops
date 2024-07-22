@@ -53,7 +53,7 @@ Note that the school network is filtering outgoing connections (via a network-ba
 
  
 Your servers
- 
+---
 Name	Username	IP	State	
 499388-web-01	ubuntu	35.174.185.41	running	
 499388-web-02				
