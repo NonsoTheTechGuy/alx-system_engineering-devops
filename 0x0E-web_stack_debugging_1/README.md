@@ -1,50 +1,41 @@
+# `SE Foundations Curriculum`
 
-Curriculum
-SE Foundations
-Average: 62.25%
-0x0E. Web stack debugging #1
-DevOps
-SysAdmin
-Scripting
-Debugging
- Weight: 1
- Project over - took place from Jul 8, 2024 6:00 AM to Jul 12, 2024 6:00 AM
- An auto review will be launched at the deadline
-In a nutshell…
-Auto QA review: 0.0/3 mandatory & 0.0/3 optional
-Altogether:  0.0%
-Mandatory: 0.0%
-Optional: 0.0%
-Calculation:  0.0% + (0.0% * 0.0%)  == 0.0%
-Concepts
+# PROJECTS - 0x0E. Web stack debugging #1
+# `DevOps` `SysAdmin` `Scripting` `Debugging`
+
+# Concepts
 For this project, we expect you to look at these concepts:
 
-Network basics
-Web stack debugging
++ [Network basics](https://intranet.alxswe.com/concepts/33)
++ [Web stack debugging](https://intranet.alxswe.com/concepts/68)
 
+![image](https://github.com/user-attachments/assets/a841a298-7faa-4f4c-8c88-e37d0fc656e5)
 
-Requirements
-General
-Allowed editors: vi, vim, emacs
+# Requirements
+## General
+Allowed editors: `vi`, `vim`, `emacs`
 All your files will be interpreted on Ubuntu 20.04 LTS
 All your files should end with a new line
-A README.md file at the root of the folder of the project is mandatory
+A `README.md` file at the root of the folder of the project is mandatory
 All your Bash script files must be executable
-Your Bash scripts must pass Shellcheck without any error
+Your Bash scripts must pass `Shellcheck` without any error
 Your Bash scripts must run without error
-The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
+The first line of all your Bash scripts should be exactly `#!/usr/bin/env bash`
 The second line of all your Bash scripts should be a comment explaining what is the script doing
-You are not allowed to use wget
-Tasks
-0. Nginx likes port 80
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
-Using your debugging skills, find out what’s keeping your Ubuntu container’s Nginx installation from listening on port 80. Feel free to install whatever tool you need, start and destroy as many containers as you need to debug the issue. Then, write a Bash script with the minimum number of commands to automate your fix.
+You are not allowed to use `wget`
 
-Requirements:
+# Tasks
+## 0. Nginx likes port 80
 
-Nginx must be running, and listening on port 80 of all the server’s active IPv4 IPs
-Write a Bash script that configures a server to the above requirements
+`mandatory`
+ 
+Using your debugging skills, find out what’s keeping your Ubuntu container’s Nginx installation from listening on port `80`. Feel free to install whatever tool you need, start and destroy as many containers as you need to debug the issue. Then, write a Bash script with the minimum number of commands to automate your fix.
+
+**Requirements**:
+
++ Nginx must be running, and listening on port `80` of all the server’s active IPv4 IPs
++ Write a Bash script that configures a server to the above requirements
+```
 root@966c5664b21f:/# curl 0:80
 curl: (7) Failed to connect to 0 port 80: Connection refused
 root@966c5664b21f:/#
@@ -77,12 +68,13 @@ Commercial support is available at
 </body>
 </html>
 root@966c5664b21f:/#
-Repo:
+```
+## Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x0E-web_stack_debugging_1
-File: 0-nginx_likes_port_80
++ GitHub repository: `alx-system_engineering-devops`
++ Directory: `0x0E-web_stack_debugging_1`
++ File: `0-nginx_likes_port_80`
     
-Copyright © 2024 ALX, All rights reserved.
+# Author 
 
-
+## KALU JONAH CHINONSO
