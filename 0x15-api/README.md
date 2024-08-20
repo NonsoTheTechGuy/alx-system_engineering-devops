@@ -116,7 +116,7 @@ sylvain@ubuntu$
 + Directory: `0x15-api`
 + File: `0-gather_data_from_an_API.py`
     
-# 1. Export to CSV
+## 1. Export to CSV
 
 `mandatory`
 
@@ -161,7 +161,7 @@ sylvain@ubuntu$
 + Directory: `0x15-api`
 + File: `1-export_to_CSV.py`
     
-# 2. Export to JSON
+## 2. Export to JSON
 
 `mandatory`
 
@@ -186,7 +186,7 @@ sylvain@ubuntu$ cat 2.json
 + Directory: `0x15-api`
 + File: `2-export_to_JSON.py`
     
-# 3. Dictionary of list of dictionaries
+## 3. Dictionary of list of dictionaries
 
 `mandatory`
 
