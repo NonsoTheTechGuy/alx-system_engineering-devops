@@ -1,4 +1,4 @@
-# SE Foundations Curriculum
+# **SE Foundations Curriculum**
 
 # PROJECT - 0x1A. Application server 🕸️
 ## `DevOps` `SysAdmin`
